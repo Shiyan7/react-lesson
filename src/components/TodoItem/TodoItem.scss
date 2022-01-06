@@ -1,0 +1,35 @@
+.todo-item {
+    &__btn {
+        color: #fff !important;
+    }
+    &__date {
+        color: rgba(#000, 0.5);
+    }
+}
+
+.checkbox {
+    margin-right: 16px;
+}
+
+.btn--remove {
+    margin-right: 8px;
+}
+
+.btn--warning {
+    margin-right: 8px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.btn--important {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.completed {
+    color: var(--bs-blue);
+}
+
+.important {
+    font-weight: 700;
+}

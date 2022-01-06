@@ -1,0 +1,16 @@
+.add-todo {
+    margin-bottom: 15px;
+
+    &__title {
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    &__form {
+        display: grid;
+        column-gap: 5px;
+        grid-template-columns: 1fr auto;
+    }
+
+}
